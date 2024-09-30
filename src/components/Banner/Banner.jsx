@@ -78,17 +78,17 @@ const Banner = () => {
       )}
 
       {/* Banner Section */}
-      <section className="bg-gradient-to-r from-firstTheme via-secondTheme to-thirdTheme py-20 p-20  min-h-screen flex flex-col md:flex-row justify-center  items-center">
+      <section className="bg-gradient-to-r from-firstTheme via-secondTheme to-thirdTheme py-20 lg:p-20 md:p-20  p-5 min-h-screen flex flex-col-reverse  md:flex-row justify-center  items-center">
         {/* Left Section - Text and Button */}
         <div className="text-center md:text-left text-white me-5  ">
-          <h1 className="text-5xl font-bold mb-12">
+          <h1 className="lg:text-5xl text-4xl font-bold mb-12">
             Unlock Insights for a Greener Future!
           </h1>
-          <p className="mb-12 text-xl">
+          <p className="mb-12 lg:text-xl">
             Download our comprehensive whitepaper now and embark on a journey
             towards a more sustainable future.
           </p>
-          <button className="btn btn-primary bg-white text-green-600 rounded-full px-6 py-3">
+          <button className="btn btn-primary hover:bg-firstTheme hover:text-white border-0 shadow-lg shadow-gray-700 bg-white text-black rounded-full px-6 py-3">
             Download Now!
           </button>
         </div>

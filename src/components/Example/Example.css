@@ -1,14 +1,4 @@
-.font-class {
-  font-family: Poppins, sans-serif;
-}
-.text-des {
-  line-height: 150%;
-
-  letter-spacing: 0.005em;
-  color: #233;
-}
-.second-content {
-  margin-top: 123px;
+.heading-text {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
