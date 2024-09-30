@@ -7,7 +7,7 @@ const Example = () => {
         sustainable <br /> example websites{" "}
       </p>
 
-      <div className="grid  gap-5 items-center justify-center w-2/3  lg:grid-cols-2 grid-cols-1">
+      <div className="grid  gap-5 items-center justify-center   lg:grid-cols-2 grid-cols-1">
         <div className=" m-5">
           <img
             className="w-80 h-48 shadow-lg "

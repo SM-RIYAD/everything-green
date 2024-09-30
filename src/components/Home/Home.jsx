@@ -3,6 +3,10 @@ import Banner from "../Banner/Banner";
 
 import "./Home.css";
 import Example from "../Example/Example";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import NewsletterSection from "../NewsletterSection/NewsletterSection";
+import CertificateSection from "../CertificateSection/CertificateSection";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div className="font-class   ">
@@ -29,11 +33,17 @@ const Home = () => {
           weight budget if you want to learn more.
         </p>
 
-        <button className="btn mt-10 btn-primary text-white border-0 bg-black">
-          {" "}
-          test now
+        <button className="flex items-center justify-center font-bold rounded-full mt-10 border-2 border-white shadow-class hover:border-0 h-[43px] hover:bg-[#1b9876] w-40 text-white bg-black space-x-2">
+          <ChevronUp strokeWidth={2.75} />
+          <span>test now</span>
         </button>
       </div>
+      <p className=" mb-20 text-center heading-text">
+        learn more about <br /> web sustainability?
+      </p>
+      <NewsletterSection></NewsletterSection>
+      <CertificateSection></CertificateSection>
+      <Footer></Footer>
     </div>
   );
 };
