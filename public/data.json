@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Custom Software Solution",
+    "description": "Tailored software for efficient business processes.",
+    "image": "https://i.ibb.co/3dmgbfj/ser-icon1.png"
+  },
+  {
+    "name": "Business Tech Solution",
+    "description": "Innovative tech for business growth and success.",
+    "image": "https://i.ibb.co/M7DThLt/ser-icon2.png"
+  },
+  {
+    "name": "Recovery & IT Security",
+    "description": "Comprehensive IT security for data and infrastructure.",
+    "image": "https://i.ibb.co/v4jKMyX/ser-icon3-1.png"
+  },
+  {
+    "name": "Idea Generation & Solution",
+    "description": "Foster creativity and turn ideas into actionable solutions.",
+    "image": "https://i.ibb.co/cJckjYh/ser-icon4.png"
+  }
+]
