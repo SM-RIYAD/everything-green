@@ -12,7 +12,7 @@ const Home = () => {
     <div className="font-class   ">
       <Banner></Banner>
       <div className="w-full flex items-center justify-center py-20">
-        <p className="text-center text-gray-500  w-1/3 text-2xl/loose font-light">
+        <p className="text-center text-gray-500 w-1/2  lg:w-1/3 text-2xl/loose font-light">
           {" "}
           The CO2 footprint of the Internet's data centers alone may already be
           comparable to that of global air travel. The good news is that a
@@ -25,7 +25,7 @@ const Home = () => {
       <Example></Example>
 
       <div className="w-full flex flex-col items-center justify-center py-20">
-        <p className="text-center text-gray-500  w-1/3 text-2xl/loose font-light">
+        <p className="text-center text-gray-500 w-1/2  lg:w-1/3 text-2xl/loose font-light">
           {" "}
           These websites avoid bloated frameworks by using compressed graphics,
           efficient file formats, and lightweight fonts. Check out our

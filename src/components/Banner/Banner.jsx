@@ -10,8 +10,8 @@ const Banner = () => {
   return (
     <>
       {/* Header Section */}
-      <header className="w-full px-2  py-4 absolute">
-        <div className=" mx-auto flex justify-between items-center">
+      <header className="w-full px-2 py-4 absolute">
+        <div className="mx-auto flex justify-between items-center">
           {/* Logo */}
           <img
             src="/images/greenWeb_logo.png"
@@ -19,23 +19,23 @@ const Banner = () => {
             className="w-52"
           />
           {/* Horizontal Line for Desktop */}
-          <div className="hidden md:block border-b border-white w-[600px] mb-2 mx-3" />
+          <div className="hidden md:block flex-grow border-b border-white mb-2 mx-3" />
           {/* Navigation Links */}
-          <nav className={`hidden md:flex space-x-8 text-white`}>
-            <a href="#sustainable-websites" className="hover:underline">
+          <nav className="hidden md:flex space-x-8  text-white">
+            <a href="#sustainable-websites" className="hover:text-[#b4dfd4]">
               Sustainable Websites
             </a>
-            <a href="#blog" className="hover:underline">
+            <a href="#blog" className="hover:text-[#b4dfd4]">
               Blog
             </a>
-            <a href="#contact" className="hover:underline">
+            <a href="#contact" className="hover:text-[#b4dfd4]">
               Contact Us
             </a>
-            <a href="#login" className="hover:underline">
+            <a href="#login" className="hover:text-[#b4dfd4]">
               Login
             </a>
           </nav>
-          <div className="hidden md:block border-b w-40 border-white  mb-2 mx-3" />
+          <div className="hidden md:block w-[100px] border-b border-white mb-2 mx-3" />
           {/* Mobile Menu Button */}
           <button className="md:hidden text-white" onClick={toggleMenu}>
             <svg
@@ -58,20 +58,23 @@ const Banner = () => {
 
       {/* Mobile Navigation Links */}
       {isOpen && (
-        <nav className="md:hidden bg-gray-800 text-white p-4 absolute top-16 left-0 right-0">
+        <nav className="md:hidden bg-white bg-blur text-black p-4 absolute top-20 left-0 right-0">
           <a
             href="#sustainable-websites"
-            className="block hover:underline mb-2"
+            className="block hover:underline text-[#1b9876] mb-2"
           >
             Sustainable Websites
           </a>
-          <a href="#blog" className="block hover:underline mb-2">
+          <a href="#blog" className="block hover:underline text-[#1b9876] mb-2">
             Blog
           </a>
-          <a href="#contact" className="block hover:underline mb-2">
+          <a
+            href="#contact"
+            className="block hover:underline text-[#1b9876] mb-2"
+          >
             Contact Us
           </a>
-          <a href="#login" className="block hover:underline">
+          <a href="#login" className="block hover:underline text-[#1b9876]">
             Login
           </a>
         </nav>

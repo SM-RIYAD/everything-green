@@ -1,4 +1,3 @@
-import { Linkedin } from "lucide-react";
 import React from "react";
 
 const Footer = () => {
@@ -6,24 +5,24 @@ const Footer = () => {
     <div>
       <header className="w-full px-2 py-4 ">
         <div className="mx-auto flex justify-between items-center">
-          <div className=" md:block border-b border-green-400 flex-grow mx-4 mb-2" />
+          <div className=" md:block border-b border-[#1b9876] flex-grow mx-4 mb-2" />
 
-          <nav className=" md:flex lg:flex flex lg:flex-row flex-col-reverse   lg:space-x-8 text-green-400">
+          <nav className=" md:flex lg:flex flex lg:flex-row flex-col-reverse   lg:space-x-8 text-[#1b9876]">
             <a
               href="#sustainable-websites"
-              className="hover:underline  lg:text-base text-sm py-2"
+              className="hover:text-gray-500  lg:text-base text-sm py-2"
             >
               Sustainable Websites
             </a>
             <a
               href="#blog"
-              className="hover:underline py-2 lg:text-base text-sm"
+              className="hover:text-gray-500 py-2 lg:text-base text-sm"
             >
               Blog
             </a>
             <a
               href="#contact"
-              className="hover:underline py-2 lg:text-base text-sm"
+              className="hover:text-gray-500 py-2 lg:text-base text-sm"
             >
               Contact Us
             </a>
@@ -32,10 +31,12 @@ const Footer = () => {
         </div>
       </header>
 
-      <footer className="w-full px-4 py-8 bg-white">
+      <footer className="w-full lg:text-base text-sm px-4 py-8 bg-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center px-5">
-          <div className="flex flex-col items-start mb-4 md:mb-0">
-            <h4 className="font-semibold text-green-600 mb-2">Contact:</h4>
+          <div className="flex flex-col items-start mb-10  md:mb-0">
+            <h4 className=" text-[#1b9876]                    lg:mb-2">
+              Contact:
+            </h4>
             <div className="flex items-center space-x-2">
               <span role="img" aria-label="email">
                 📧
@@ -49,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center mb-4 md:mb-0 space-x-4">
+          <div className="flex items-center mb-10 md:mb-0 space-x-4">
             <a href="/privacy-policy" className="text-gray-700 hover:underline">
               Privacy Policy
             </a>
@@ -68,7 +69,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col items-start">
-            <h4 className="font-semibold text-green-600 mb-2">Address:</h4>
+            <h4 className="text-[#1b9876] mb-2">Address:</h4>
             <address className="not-italic text-gray-700">
               China Hong Kong City Block 3, Room 1203,
               <br />
